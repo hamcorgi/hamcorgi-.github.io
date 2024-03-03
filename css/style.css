@@ -1,0 +1,82 @@
+
+body{
+    margin: auto 0;
+    background: url("../img/1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    color: white;
+}
+.helloo {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.7em;
+    
+  }
+  #clock {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  input {
+    font-size: 1.2em;
+  }
+  .quote {
+    
+    margin-top: 830px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: white;
+
+  }
+  #input{
+
+    font-size: 1.2em;
+
+  }
+
+  #center{
+    display: flex;
+    justify-content: center;
+  }
+
+  #weather{
+
+    display: flex;
+    justify-content: center;
+  }
+
+  #todo-form {
+    
+    display: flex;
+    justify-content: center;
+  }
+
+ #todo-form input[type=text] {
+  width: 300px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+
+  padding-left: 10px;
+}
+#todo-list {
+
+  display: flex;
+  justify-content: center;
+}
+#todo-list li {
+
+    float: left;
+}
