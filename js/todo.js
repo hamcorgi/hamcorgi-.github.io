@@ -38,7 +38,7 @@ function getTodo(event){
 
     event.preventDefault();
     const todo = todoInput.value;
-    todoInput.vaule = ""
+    todoInput.value = ""
     const newTodoObj = {
         text:todo,
         id: Date.now(),
